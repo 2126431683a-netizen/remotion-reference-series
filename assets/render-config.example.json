@@ -1,0 +1,29 @@
+{
+  "projectRoot": "../my-remotion-project",
+  "entryPoint": "src/index.ts",
+  "outputDir": "out/reference-series-v1",
+  "concurrency": 2,
+  "crf": 18,
+  "scale": 1,
+  "enableCaching": false,
+  "tempRoot": "out/reference-series-v1/.render-work",
+  "episodes": [
+    {
+      "id": "Episode-One",
+      "filename": "episode-one.mp4",
+      "checkSeconds": [1, 8, 15],
+      "previewSeconds": 10,
+      "audioExpected": true
+    },
+    {
+      "id": "Episode-Two",
+      "filename": "episode-two.mp4",
+      "previewSeconds": 10
+    },
+    {
+      "id": "Episode-Three",
+      "filename": "episode-three.mp4",
+      "previewSeconds": 10
+    }
+  ]
+}

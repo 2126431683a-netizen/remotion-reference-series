@@ -1,0 +1,11 @@
+.remotion/
+node_modules/
+__pycache__/
+*.py[cod]
+*.tmp
+.render-series.lock
+out/
+dist/
+.env
+.env.*
+!.env.example

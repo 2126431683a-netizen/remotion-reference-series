@@ -1,0 +1,4 @@
+interface:
+  display_name: "参考视频驱动的 Remotion 分集制作"
+  short_description: "拆解参考视频，生成频道素材，制作并验证 Remotion 系列视频"
+  default_prompt: "使用 $remotion-reference-series，参考我提供的视频和频道头像，把这份脚本做成连贯的上中下三集，并交付预览、成片和封面。"
