@@ -9,3 +9,7 @@ dist/
 .env
 .env.*
 !.env.example
+*-apiKey-*.csv
+*.credentials.csv
+voice-profiles/
+bailian-local.json
